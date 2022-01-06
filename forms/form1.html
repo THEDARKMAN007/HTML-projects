@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Vibes Form</title>
+</head>
+<body style="text-align: center;">
+    
+    <h1 style="font-size: xxx-large;">Good Vibes Form</h1><br>
+    
+    <p style="font-size:large;">Tell us something positive that happened to you today</p>
+    
+    <form action="/action_page.php" target="_blank" method="get" autocomplete="">
+    
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"> <br><br>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address"> <br><br>
+        
+        <label for="scale">On a scale of 1-10, how good was it?</label> 
+        <input type="number" name="quality" id="scale"
+        placeholder="Enter a number between 1 and 10" min="1" max="10"> <br><br>
+        
+        <label for="Where">Where did it happen?</label>
+        <select name="place" id="Where">
+            <option value="At home">At home</option>
+            <option value="On my commute">On my commute</option>
+            <option value="At work">At work</option>
+            <option value="On the street">On the street</option>
+            <option value="other">other</option>
+        </select> <br> <br>
+        
+        <!-- <label for="Where">Where did it happen?</label>
+        <input type="text" name="place" id="Where" list="browsers" placeholder="select">
+        <datalist id="browsers">
+            <option value="At home">
+            <option value="On my commute">
+            <option value="At work">
+            <option value="On the street">
+            <option value="other">
+        </datalist> <br><br> -->
+        
+        <p>At what time of day did it happen?</p>
+        <input type="radio" name="partofday" id="morn" value="Morning">
+        <label for="morn">Morning</label> <br>
+        <input type="radio" name="partofday" id="after" value="Afternoon" >
+        <label for="after">Afternoon</label> <br>
+        <input type="radio" name="partofday" id="even" value="Evening">
+        <label for="even">Evening</label> <br><br>
+        
+        <p>What emotions did you experience?(select all that apply)</p> <br>
+        <input type="checkbox" name="experience" id="Exc" value="Excited">
+        <label for="Exc">Excited</label><br>
+        <input type="checkbox" name="experience" id="Hum" value="Humbled">
+        <label for="Hum">Humbled</label><br>
+        <input type="checkbox" name="experience" id="Ela" value="Elated">
+        <label for="Ela">Elated</label><br>
+        <input type="checkbox" name="experience" id="Lov" value="Loved">
+        <label for="Lov">Loved</label><br>
+        <input type="checkbox" name="experience" id="Ent" value="Enthusiastic">
+        <label for="Ent">Enthusiastic</label>
+        <br><br>
+        
+        <label for="describe">Please describe your positive experience.</label> 
+        <textarea name="+exp" id="describe" cols="30" rows="10"></textarea>
+        <br><br>
+        
+        <input type="submit" value="click here" style="background-color: rgb(35, 144, 233); border-color: rgb(35, 144, 233);"  list="list">
+
+       
+    </form>
+    
+    
+    
+
+    
+</body>
+</html>

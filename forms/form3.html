@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background-color: lightblue;
+        margin-left: 30%; margin-right:30%;}
+        form{background-color: white;
+        padding: 30px;
+        line-height: 30px;}
+        .input-text{width: 100%;}
+        select{width: 100%;}
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Signup</h1>
+<form action="" method="post">
+    <div>
+        Fullname: <br>
+        <input type="text" class="input-text" name="name">
+    </div>
+    <div>
+        Email: <br>
+        <input type="email" class="input-text" name="Email">
+    </div>
+    <div>
+        Password: <br>
+        <input type="password" class="input-text" name="password">
+    </div>
+    <div>
+        Confirm Password: <br>
+        <input type="password" class="input-text" name="password">
+    </div>
+    <div>
+        Gender: <br>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female
+        <input type="radio" name="Gender" value="Other">Other
+    </div>
+    <div>
+        Security Question: <br>
+        <select name="security-question"   >
+            <option value="first pet">first pet</option>
+            <option value="first job">first job</option>
+            <option value="nickname">nickname</option>
+        </select>
+    </div>
+    <textarea name="security-question answer" cols="30" rows="10"></textarea>
+    <div>
+        <input type="checkbox" name="status" value="accepted"> I agree to accept terms and conditions
+    </div>
+    <div>
+        <input type="submit" value="Register">
+    </div>
+   <details>
+       <summary>open</summary>
+       <p>fuck you</p>
+       <p>fuck you again</p>
+   </details>
+</form>    
+</body>
+</html>
